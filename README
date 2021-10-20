@@ -1,0 +1,4 @@
+1- to install a dependency 'npm install(i) <packagename>'
+2- to install a package globally 'npm install(i) <packagename> -g'
+3- to install a devDependency 'npm install(i) <packagename> --save-dev(-D)'
+4- to uninstall a dependency 'npm uninstall <packagename>'

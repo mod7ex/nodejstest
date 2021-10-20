@@ -38,6 +38,8 @@ readFile("./content/subfolder/first.txt", "utf8", (err, res) => {
 console.log(2);
 
 **************************************************************************************/
+/* 
+
 const http = require("http");
 
 const server = http.createServer((req, res) => {
@@ -46,4 +48,8 @@ const server = http.createServer((req, res) => {
       else res.end("<h1>404</h1>");
 });
 
-server.listen(3000);
+server.listen(3000); 
+
+*/
+
+console.log("Hello World (:");
