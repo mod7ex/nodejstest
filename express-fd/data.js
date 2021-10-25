@@ -1,7 +1,7 @@
 let products = [
       {
             id: 0,
-            name: "hero Product",
+            name: "hero",
             detail: "Lorem ipsum dolor sit amet",
             price: "99",
             hero: "OMG This just came out today!",
@@ -9,7 +9,7 @@ let products = [
       },
       {
             id: 1,
-            name: "Product 1",
+            name: "atay",
             detail: "Lorem ipsum dolor sit amet",
             price: "99",
             info: "This is the latest and greatest product from Derp corp.",
@@ -17,7 +17,7 @@ let products = [
       },
       {
             id: 2,
-            name: "Product 2",
+            name: "zbda",
             detail: "Lorem ipsum dolor sit amet",
             price: "99",
             offer: "BOGOF",
@@ -25,14 +25,14 @@ let products = [
       },
       {
             id: 3,
-            name: "Product 3",
+            name: "sabon",
             detail: "Lorem ipsum dolor sit amet",
             price: "99",
             image: "http://placehold.it/300x300/999/CCC",
       },
       {
             id: 4,
-            name: "Product 4",
+            name: "chklat",
             detail: "Lorem ipsum dolor sit amet",
             price: "99",
             offer: "No srsly GTFO",
@@ -40,14 +40,14 @@ let products = [
       },
       {
             id: 5,
-            name: "Product 5",
+            name: "danon",
             detail: "Lorem ipsum dolor sit amet",
             price: "99",
             image: "http://placehold.it/300x300/999/CCC",
       },
       {
             id: 6,
-            name: "Product 6",
+            name: "pidza",
             detail: "Lorem ipsum dolor sit amet",
             price: "99",
             info: "This is the latest and greatest product from Derp corp.",
