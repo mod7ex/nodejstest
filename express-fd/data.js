@@ -56,4 +56,9 @@ let products = [
       },
 ];
 
-module.exports = { products };
+let people = [
+      { name: "Mourad EL CADI", age: 23 },
+      { name: "alina shadova", age: 58 },
+      { name: "Nastya svep", age: 37 },
+];
+module.exports = { products, people };
