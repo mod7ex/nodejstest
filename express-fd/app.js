@@ -81,10 +81,15 @@ app.get("*", (req, res) => {
       res.status(404).send("<h1>404 Not Found</h1>");
 });
 
-app.use(express.urlencoded({ extended: false }));
+app.use([
+      express.urlencoded({ extended: false }),
+      express.json(),
+      express.raw(),
+]);
 app.post("/login", (req, res) => {
-      let { email, password } = req.body;
-      res.json({ email, password });
+      console.log(req.body);
+      // let { email, password } = req.body;
+      res.json(req.body);
 });
 
 app.listen(5000, () => {
